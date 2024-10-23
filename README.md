@@ -14,7 +14,7 @@ with the app id `1245620` inside of it, and then launching the game from `eldenr
 ## Dll injector
 If you are using something like lazy loader, elden mod loader, or modengine2, then you can rename the `dinput8.dll` to anything
 and load up the dll that way. Make sure that the `affinity.toml` is also placed alongside the dll, as it reads it from the
-directory that it's in.
+directory that the dll is in.
 
 # Config
 
