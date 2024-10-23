@@ -1,0 +1,18 @@
+[package]
+name = "processor-affinity-optimization"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "dinput8"
+crate-type = ["cdylib"]
+
+
+[features]
+Console = []
+
+[dependencies]
+dll-proxy = { git = "https://github.com/Nordgaren/dll-proxy.git"}
+serde = { version = "1.0.160", features = ["derive"]}
+toml = "0.8.19"

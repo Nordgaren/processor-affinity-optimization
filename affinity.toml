@@ -1,0 +1,9 @@
+# This is the delay before the affinity is set. If you set it right away, it will cause the game to crash
+# Find a setting that applies it before you get into the main menu that doesn't just crash the game for you.
+# 10 seconds is fast enough that it is set well before title screen on a 14900k
+delay = 10
+# An array of cores to exclude. By default, all cores are included. This program is set up to exclude core 0,
+# but you can customize which cores to exclude by adding them to the array, like so exclude = [0, 1, 5].
+# You can find the cores avaiible on your processor by going into the task manager, details panel, right click on
+# any process and choose "set affinity".
+exclude = [0]
